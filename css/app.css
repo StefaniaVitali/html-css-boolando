@@ -1,0 +1,103 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+ text-decoration: none;
+ color:current-color;   
+}
+ul,
+ol,
+menu{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+/* FINE RESET */
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row > *{
+    padding: 10px;
+}
+
+.col-6{
+    width: calc(100%/3);
+}
+
+/* HEADER */
+.page-header{
+    background-color: #fc6801;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+}
+
+.page-header .row{
+justify-content: space-between;
+height:70px;
+align-items: center;
+}
+
+.main-menu, .menu-icons{
+    display: flex;
+}
+.menu-icon, .menu-item{
+    line-height: 32px;
+    padding: 0 3px;
+}
+
+.menu-icon{
+    color:white;
+}
+
+.logo img{
+height: 30px;
+display: block;
+}
+
+/* FINE HEADER */
+
+/* INIZIO MAIN CONTENT */
+
+h1{
+    font-size: 25px;
+    text-align: center;
+}
+h2{
+    font-size: 18px; 
+    text-align: center; 
+}
+
+main h1, h2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    margin-bottom: 25px;
+}
+
+.card-shop p{
+ color:red;
+ font-size: 11px;
+ font-weight: bold;
+}
+.card-shop span{
+    color:black;
+    text-decoration: line-through; 
+    font-weight: lighter;
+}
+
